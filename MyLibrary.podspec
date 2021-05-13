@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/app-master/MyCustomPod.git", :tag => spec.version }
   spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
+  spec.swift_version = '5'
   spec.frameworks  = "Foundation"
   spec.requires_arc = true
 
