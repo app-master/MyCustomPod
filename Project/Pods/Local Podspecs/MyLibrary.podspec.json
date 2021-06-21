@@ -1,0 +1,29 @@
+{
+  "name": "MyLibrary",
+  "version": "0.0.1",
+  "summary": "Example of creating own pod.",
+  "homepage": "https://github.com/app-master/MyCustomPod.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Кошлаков Сергей Владимирович": "appmaster@me.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/app-master/MyCustomPod.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "swift_versions": "5",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "swift_version": "5"
+}
