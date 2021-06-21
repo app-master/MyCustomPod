@@ -21,5 +21,12 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5'
   spec.frameworks  = "Foundation"
   spec.requires_arc = true
+  spec.default_subspec = 'Core'
+
+  spec.subspec 'Core' do |core|
+    core.source_files        = 'Classes/AKClass.{swift}'
+    # core.dependency 'MyLibrary/Connection'
+    # core.dependency 'MyLibrary/Provider'
+  end
 
 end
